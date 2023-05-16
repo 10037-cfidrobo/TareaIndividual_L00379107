@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Formulario de Login</title>
+  <meta name="viewport"
+    content="width=device-width, user-scaleble=no, initial-scale=1, maximum-scale=1,minimum-scale=1">
+  <link rel="stylesheet" href="css/MisEstilos.css">
+  <script src="js/FormContacto.js"></script>
+</head>
+
+<body>
+  <form class="" action="" method="post" name="FormContacto" onsubmit="return validar()">
+    <h2>Contacto</h2>
+    <p>Correo Electrónico</p>
+    <input type="text" id="txtEmail" name="txtEmail" placeholder="&#9993; usuario@mail.com" required>
+    <p>Fecha de Nacimiento</p>
+    <input type="date" name="txtFecha" required>
+    <p>Teléfono</p>
+    <input type="text" id="txtTelefono" name="txtTelefono" placeholder="&#9742; Telefono" required>
+    <input type="submit" id="BtnEnviar" name="BtnEnviar" value="Enviar"
+      onclick="mostrarMensajeEnviando(); setTimeout(enviarFormulario, 5000);">
+    <a href="index.html">Regresar</a>
+  </form>
+</body>
+
+</html>
