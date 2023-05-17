@@ -4,12 +4,12 @@ function mostrarMensajeEnviando() {
 
     setTimeout(function () {
         boton.disabled = true; // Deshabilitar el botón después de 1 segundo
-        document.getElementById('FormContacto').submit(); // Enviar el formulario
+        document.getElementById('ContactoForm').submit(); // Enviar el formulario
     }, 5000);
 }
 
 function enviarFormulario() {
-    var formulario = document.getElementById('FormContacto');
+    var formulario = document.getElementById('ContactoForm');
     formulario.submit(); // Enviar el formulario
 }
 function validar() {
